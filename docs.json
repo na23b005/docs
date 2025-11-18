@@ -11,13 +11,9 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
-      {
+       {
         "tab": "Guides",
-        "groups": []
-      },
-      {
-        "tab": "API reference",
-        "groups": []
+        "groups": ["auth"]
       }
     ],
     "global": {
