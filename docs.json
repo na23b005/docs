@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "index": "auth",
+  "index": "auth.mdx",
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
