@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "index": "auth.mdx",
+  "index": "auth/index",
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
@@ -9,32 +9,26 @@
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+
   "navigation": {
     "tabs": [
-       {
+      {
         "tab": "Guides",
-        "groups": ["auth"]
+        "groups": [
+          {
+            "group": "Auth",
+            "pages": ["auth/index"]
+          }
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
+
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+
   "navbar": {
     "links": [
       {
@@ -48,6 +42,7 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
+
   "contextual": {
     "options": [
       "copy",
@@ -60,6 +55,7 @@
       "vscode"
     ]
   },
+
   "footer": {
     "socials": {
       "x": "https://x.com/mintlify",
